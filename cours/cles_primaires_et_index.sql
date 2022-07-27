@@ -64,5 +64,40 @@
 -- SELECT *
 -- FROM recipes
 
-CREATE UNIQUE INDEX id_slug ON recipes (slug);
+--CREATE UNIQUE INDEX id_slug ON recipes (slug);
+---> permet de créer l'index personnalisé,
+-- tous les slugs doivent être différents d'où la commande 
+--du haut.
+--sert à s'assurer de l'unicité d'une valeur 
+
+--l'indexe est utile pour les champs que l'on utilise très
+--souvent mais il ralentit l'ajout d'informations 
+
+--________________Supprimer Un Index________________
+
+--DROP INDEX id_slug
+
+
+--________________UUID_______________
+
+--un autre moyen de faire une clé primaire avec une chaîne de 
+--caractères aléatoires 
+--l'avantage c'est que l'on ne peut pas 
+--la deviner
+
+CREATE TABLE recipes (
+--     uuid INTEGER PRIMARY KEY AUTOINCREMENT,
+--     title VARCHAR(150),
+--     slug VARCHAR(50),
+--     content TEXT,
+--     duration SMALLINT,
+--     online BOOLEAN, 
+--     created_at DATETIME
+-- );
+
+--autre solution : utiliser une clé primaire
+--sans autoincrement, dans ce cas à nous de définir les id 
+
+
+
 
