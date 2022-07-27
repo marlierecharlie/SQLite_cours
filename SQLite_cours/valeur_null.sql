@@ -1,1 +1,0 @@
---quand on insert une valeur en oubliant certains champs 
