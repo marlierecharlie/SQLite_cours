@@ -1,3 +1,5 @@
+--______________________ CREER UNE TABLE_______________________
+
 -- CREATE TABLE recipes (
 --     title VARCHAR(150),
 --     slug VARCHAR(50),
@@ -7,7 +9,7 @@
 --     created_at DATETIME
 -- );
 
-
+-- ___________________REMPLIR UNE TABLE______________________
 --commande insert into
 -- rechercher le time stamp du jour
 -- INSERT INTO recipes( 
@@ -26,14 +28,18 @@
 --     1658316135
 --     );
 
+-- _____________FAIRE APPARAITRE CERTAINS CHAMPS DE LA TABLE_____
 --requête SELECT
 -- SELECT title, duration
 -- FROM recipes
 
+-- ______________________OU TOUTE LA TABLE_____________________
 -- ou pour réccupérer toutes les infos 
 -- SELECT *
 -- FROM recipes
 
+
+-- _______FAIRE APPARAITRE CHAMPS TABLE SOUS CERTAINES CONDITIONS______
 --si on veut réccupérer sous certaines conditions seulement
 -- SELECT *
 -- FROM recipes
@@ -51,7 +57,7 @@
 -- FROM recipes
 -- WHERE slug LIKE 'pa%'
 
-
+-- ____________REVISIONS OPERATIONS BOOLEENS______________
 -- opération booléen 
 -- TRUE AND TRUE = TRUE
 -- TRUE AND FALSE = FALSE 

@@ -70,7 +70,7 @@
 --du haut.
 --sert à s'assurer de l'unicité d'une valeur 
 
---l'indexe est utile pour les champs que l'on utilise très
+--l'index est utile pour les champs que l'on utilise très
 --souvent mais il ralentit l'ajout d'informations 
 
 --________________Supprimer Un Index________________
